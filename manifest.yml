@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: pythontestapp123
+  host: pythontestapp123
+  disk_quota: 1024M
+  services:
+  - Twilio-p5
+  - availability-monitoring-auto
